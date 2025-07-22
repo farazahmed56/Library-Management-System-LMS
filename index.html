@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Library Management System</h1>
+
+        <div class="search-bar">
+            <form action="search.php" method="GET">
+                <input type="text" name="query" placeholder="Search books here..." required>
+                <input type="submit" value="Search">
+            </form>
+        </div>
+
+        <div class="nav-buttons">
+            <a href="view_books.php" class="btn">View Book Library</a>
+            <a href="add_book.php" class="btn">Add New Book</a>
+            <a href="update_delete_book.php" class="btn">Update or Delete Book</a>
+            <a href="issue_book.php" class="btn">Issue Book</a>
+            <a href="return_book.php" class="btn">Return Book</a>
+        </div>
+        <h5 style="font-family: Calibri; font-weight: 300; color: #808080;"> © All rights reserved | Faraz Ahmed</h5>
+    </div>
+</body>
+</html>
